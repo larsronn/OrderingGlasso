@@ -1,9 +1,9 @@
-library(qtl) # R/qtl package used for to computing recombination fractions
-library(Matrix)
-library(glasso) #Graphical lasso function
+#library(qtl) # R/qtl package used for to computing recombination fractions
+#library(Matrix)
+#library(glasso) #Graphical lasso function
 #INLA ackage used to access the ordering function
 #install.packages("INLA",repos=c(getOption("repos"),INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
-library(INLA) 
+#library(INLA) 
 
 ############ FUNCTION USING GRAPHICAL LASSO PLUS RE-ORDERING FUNCTION TO FIND TRUE ORDER #############
 get.map <- function(qtl.obj, shrink=0.9, verb=FALSE) {
